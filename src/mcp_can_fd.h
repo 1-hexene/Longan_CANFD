@@ -2,7 +2,7 @@
 #define _MCP_CAN_H_
 
 #include <Arduino.h>
-#include <SPI.h>
+#include "hal/spi_types.h"
 #include <inttypes.h>
 
 #define CAN_OK              (0)
